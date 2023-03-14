@@ -3,16 +3,16 @@
 import sys
 
 def my_printf(format_string,param):
-    #print(format_string)
-    format_string = format_string.swapcase()
+    formated_string = format_string
+    print(format_string)
     shouldDo=True
-    for idx in range(0,len(format_string)):
+    for idx in range(0,len(formated_string)):
         if shouldDo:
-            if format_string[idx] == '#' and format_string[idx+1] == 'k':
-                print("XXX",end="")
+            if formated_string[idx] == '#' and formated_string[idx+1] == 'k':
+                print(param.swapcase(),end="")
                 shouldDo=False
             else:
-                print(format_string[idx],end="")
+                print(formated_string[idx],end="")
         else:
             shouldDo=True
     print("")
