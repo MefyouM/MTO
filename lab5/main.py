@@ -5,11 +5,13 @@ import sys
 def my_printf(format_string,param):
     #print(format_string)
     shouldDo=True
+    count = 1
     noG=True
     for idx in range(0,len(format_string)):
         if shouldDo:
             if format_string[idx] == '#' and format_string[idx+2] == 'g':
-                print(param,end="")
+                count = int(format_string[idx+1])
+                print(param[:count],end="")
                 shouldDo=False
                 noG=False
             else:
