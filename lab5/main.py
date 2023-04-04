@@ -5,13 +5,18 @@ import sys
 def my_printf(format_string,param):
     #print(format_string)
     shouldDo=True
+    noG=True
     for idx in range(0,len(format_string)):
         if shouldDo:
-            if format_string[idx] == '#' and format_string[idx+1] == 'k':
+            if format_string[idx] == '#' and format_string[idx+2] == 'g':
                 print(param,end="")
                 shouldDo=False
+                noG=False
             else:
-                print(format_string[idx],end="")
+                if noG:
+                    print(format_string[idx],end="")
+                else:
+                    noG=True
         else:
             shouldDo=True
     print("")
