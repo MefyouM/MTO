@@ -8,7 +8,9 @@ def my_printf(format_string,param):
     sign = ""
     morf = ""
     final = ""
+    add = ""
     indeks = 0
+    dif = 0
     c = 0
     for i in range(len(param)):
         sign = param[i]
@@ -44,6 +46,12 @@ def my_printf(format_string,param):
             if format_string[idx] == '#' and format_string[idx+1] == '.':
                 indeks = format_string[idx:].index("j")
                 final = format_string[idx+2:idx+indeks]
+                morf = morf[:int(final)]
+                dif = int(final) - len(param)
+                if dif > 0:
+                    for i in range(dif):
+                        add = add + "o"
+                    morf = add + morf
                 print(morf[:int(final)],end="")
                 shouldDo=False
                 c = len(final)+1
