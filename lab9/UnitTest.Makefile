@@ -65,8 +65,8 @@ endef
 	# perform_test,INPUT_FILE_NAME_WOUT_EXTENSION,TEST_NAME
 	
 	$(call perform_test,length,Length)
-	$(call perform_test,with_dot,"With dot")
-	$(call perform_test,without_dot,"Without dot")
+	$(call perform_test,withdot,"With dot")
+	$(call perform_test,withoutdot,"Without dot")
 	$(call perform_test,bad,Bad)
 
 	$(call restore_data)
@@ -77,8 +77,8 @@ generate:
 	# generate_output,INPUT_FILE_NAME_WOUT_EXTENSION
 	
 	$(call generate_answers,length)
-	$(call generate_answers,with_dot)
-	$(call generate_answers,without_dot)
+	$(call generate_answers,withdot)
+	$(call generate_answers,withoutdot)
 	$(call generate_answers,bad)
 
 	$(call restore_data)
@@ -88,6 +88,6 @@ merge:
 	-rm ./answers.txt 2>/dev/null
 
 	$(call merge_test,length)
-	$(call merge_test,with_dot)
-	$(call merge_test,without_dot)
+	$(call merge_test,withdot)
+	$(call merge_test,withoutdot)
 	$(call merge_test,bad)
