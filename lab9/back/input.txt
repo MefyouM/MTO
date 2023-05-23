@@ -18,3 +18,45 @@ rwrewrew #.10h fjdslkjfdl
 123
 fjdlskjfldjflj #.19h rewrewrew
 123
+totafsdfsf #.5h fdsfsdf
+1.123
+totafsd #.5h fdsfsdf fdfjs
+2.456
+jfldjfldk #.6h wynik
+3.7890
+fjdfsfds #.12h alal
+4.1234567890
+djfjkldsjf #.3h jjjjjj fsfjdljfdlsj flj ldfj
+5.1
+gjjkdsljflds #.4h jdlkfjdslf
+6.23
+fjdslkfjdl #.6h tttttt
+7.45678901234567890
+totafsdfsf #.3h fdsfsdf
+1
+totafsd #.3h fdsfsdf fdfjs
+2
+jfldjfldk #.3h wynik
+34
+fjdfsfds #.3h alal
+567
+djfjkldsjf #.3h jjjjjj fsfjdljfdlsj flj ldfj
+890
+gjjkdsljflds #.3h jdlkfjdslf
+1234567890
+totafsdfsf #h fdsfsdf
+test
+totafsd#h fdsfsdf fdfjs
+tes
+jfldjfldk # wynik
+te
+fjdfsfds # h alal
+t
+djfjkldsjf #.1h jjjjjj fsfjdljfdlsj flj ldfj
+o
+gjjkdsljflds #.2h jdlkfjdslf
+s
+fjdslkfjdl #.3h tttttt
+a
+fjdlsjfkl #4h oooolll
+r
