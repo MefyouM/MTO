@@ -36,11 +36,12 @@ def my_printf(format_string,param):
             sign = "j"
         elif sign ==".":
             dotDetected = True
-            break;
         d += 1
         morf += sign
+        if dotDetected:
+            break;
     if dotDetected:
-        for j in range(d+1,len(param)):
+        for j in range(d,len(param)):
             sign = (int(param[j])+5)%10
             morf += str(sign)
     for idx in range(0,len(format_string)):
