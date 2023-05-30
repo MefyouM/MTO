@@ -1,39 +1,3 @@
-totafsdfsf # fdsfsdf
-test
-totafsd# fdsfsdf fdfjs
-test2
-jfldjfldk # wynik
-test3
-fjdfsfds # a alal
-test4
-djfjkldsjf #213a jjjjjj fsfjdljfdlsj flj ldfj
-test5
-gjjkdsljflds # ba jdlkfjdslf
-test6
-fjdslkfjdl #           a tttttt
-test7
-fjdlsjfkl #.a oooolll
-test8
-test #a test
-1
-test #a test
-2
-test #a test
-3
-test #a test
-4
-test #a test
-5
-test #a test
-6
-test #a test
-7
-test #a test
-8
-test #a test
-9
-test #a test
-10
 test #a test
 10
 test #a test
