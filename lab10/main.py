@@ -12,6 +12,8 @@ def my_printf(format_string,param):
                 paramInt = int(paramF)
                 N = len(str(paramInt))
                 O = paramInt
+                if paramInt < 0:
+                    N = N-1
                 F = int((O*2)/N)
                 print(F,end="")
                 shouldDo=False
