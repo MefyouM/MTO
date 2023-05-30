@@ -6,8 +6,9 @@ def my_printf(format_string,param):
     #print(format_string)
     # F=int((O*2)/N)
     shouldDo=True
-    N = len(param)
-    O = int(param)
+    paramInt = int(param)
+    N = len(str(paramInt))
+    O = paramInt
     F = int((O*2)/N)
     for idx in range(0,len(format_string)):
         if shouldDo:
