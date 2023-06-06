@@ -1,8 +1,9 @@
 totafsdfsf # fdsfsdf
 totafsd# fdsfsdf fdfjs
 jfldjfldk # wynik
-fjdfsfds # a alal
-djfjkldsjf #213a jjjjjj fsfjdljfdlsj flj ldfj
-gjjkdsljflds # ba jdlkfjdslf
-fjdslkfjdl #           a tttttt
-fjdlsjfkl #.a oooolll
+fjdfsfds # b alal
+djfjkldsjf #213b jjjjjj fsfjdljfdlsj flj ldfj
+gjjkdsljflds # ab jdlkfjdslf
+fjdslkfjdl #           b tttttt
+fjdlsjfkl #.b oooolll
+fjdlsjfkl #.12b oooolll
